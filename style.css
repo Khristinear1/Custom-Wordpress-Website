@@ -1,0 +1,151 @@
+/*
+Theme Name: New Theme
+Author: Christine A.
+*/
+
+html {
+    margin-top: 0px !important;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background: #23557b;
+    width:100%;
+    height:100px;
+    margin: 0px;
+}
+
+.subheader{
+    background-color:#77ccea;
+    width: 100%;
+    height: 150px;
+}
+
+header a, footer a {
+    font-size: 15px;
+}
+
+header .navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+a.custom-logo-link {
+    padding: 0px 0px 0px 0px;
+}
+
+.custom_menu {
+    margin-left: 70px;
+}
+
+header .navigation li {
+    padding: .50rem 1rem;
+    color: white;
+}
+
+
+header li {
+    position: relative;
+}
+
+header .navigation li:first-child a {
+    padding-left: 0;
+}
+
+
+.fixed-bottom, .ul#menu-top-menu-1.footer-bar {
+    background: #23557b;
+    width:100%;
+    height: 200px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.footer-bar, a {
+    list-style-type: none;
+    color: #fff;
+}
+
+ul#menu-top-menu-1.footer-bar {
+    display: left;
+    height: 100%;
+    margin-left: 400px;
+    padding: 0px 0px 0px 0px;
+}
+
+footer ul{
+    padding-left: 25rem;
+}
+
+
+img.custom-logo {
+    height: auto;
+    width: 220px;
+}
+
+
+/* 
+ SUB MENUS
+*/
+
+ul.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: .6rem;
+    background: #154264;
+    margin: 6px;
+    margin-top: 0px;
+    padding: 5px;
+    list-style: none;
+}
+
+a:hover  {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: #fff;
+}
+
+ul.sub-menu li.menu-item-object-page:hover {
+    background-color: #6e9abd;
+    text-decoration: none !important;
+    transition: 0.6s;
+    animation: 300ms ease-in-out forwards;
+}
+
+
+.menu-item-has-children:hover .sub-menu {
+    display: block;
+    padding: 0px;
+}
+
+
+ul.sub-menu{
+    margin: .5px;
+    
+}
+
+a .sub-menu{
+    padding: 0px;
+}
+
+
+/* front page design */ 
+.has-text-align-left {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+/* designs for columns */ 
